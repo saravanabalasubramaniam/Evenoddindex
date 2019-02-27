@@ -14,7 +14,7 @@ class Evenodd
 			c=c+b.charAt(i);
 		}
 	}
-	System.out.print(c);
+	System.out.println(c);
 	System.out.print("  ");
 	for(int i=0;i<b.length();i++)
 	{
@@ -23,6 +23,6 @@ class Evenodd
 			d=d+b.charAt(i);
 		}
 	}
-	System.out.print(d);
+	System.out.println(d);
   }
 }
