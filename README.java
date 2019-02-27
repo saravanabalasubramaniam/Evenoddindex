@@ -6,20 +6,23 @@ class Evenodd
   {
 	Scanner input=new Scanner(System.in);
 	String b=input.nextLine();
+	String c="",d="";
 	for(int i=0;i<b.length();i++)
 	{
 		if(i%2==0)
 		{
-			System.out.print(b.charAt(i));
+			c=c+b.charAt(i);
 		}
 	}
+	System.out.print(c);
 	System.out.print("  ");
 	for(int i=0;i<b.length();i++)
 	{
 		if(i%2!=0)
 		{
-			System.out.print(b.charAt(i));
+			d=d+b.charAt(i);
 		}
 	}
+	System.out.print(d);
   }
 }
