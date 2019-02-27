@@ -15,7 +15,6 @@ class Evenodd
 		}
 	}
 	System.out.println(c);
-	System.out.print("  ");
 	for(int i=0;i<b.length();i++)
 	{
 		if(i%2!=0)
